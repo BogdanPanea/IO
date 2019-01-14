@@ -1,9 +1,11 @@
 package ro.bogdanpanea.homeworks;
 
+import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.File;
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.util.ArrayList;
@@ -23,7 +25,7 @@ public class StandingsTest {
     public void setup() {
         try {
             lines = Files.readAllLines(Paths.get(csvFile), StandardCharsets.UTF_8);
-        } catch (Exception e) {
+        } catch (IOException e) {
             LOGGER.log(Level.SEVERE, e.getMessage());
         }
     }

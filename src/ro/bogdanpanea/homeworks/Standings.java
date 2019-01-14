@@ -16,16 +16,23 @@ public class Standings {
     private String cvsSplitBy = ",";
     private List<Athlete> athletes = new ArrayList<>();
 
-    void readFromCSV() {
+    void readFromCSV() throws StandingException {
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
             while ((line = br.readLine()) != null) {
                 String[] athleteDetails = line.split(cvsSplitBy);
+                checkLine(athleteDetails);
                 String[] shotResults = {athleteDetails[4], athleteDetails[5], athleteDetails[6]};
                 athletes.add(new Athlete(Integer.parseInt(athleteDetails[0]), athleteDetails[1], athleteDetails[2], athleteDetails[3], shotResults));
             }
         } catch (IOException e) {
             LOGGER.log(Level.SEVERE, e.getMessage());
+        }
+    }
+
+    private void checkLine(String[] line) throws StandingException {
+        if (line.length != 7) {
+            throw new StandingException("Linie nu contine toate informatiile despre concurent !", "Linie invalida.");
         }
     }
 

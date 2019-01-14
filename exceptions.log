@@ -1,18 +1,18 @@
-Ian 13, 2019 4:58:26 PM ro.bogdanpanea.homeworks.Standings printAtletes
+Ian 14, 2019 9:43:49 AM ro.bogdanpanea.homeworks.Standings printAtletes
 INFO: Athlete{number=6, name='Bogdan', countryCode='UK', skiTimeResult='28:45', shootingRange=[xooox, xooxo, xoxxo], finalTime='30:5'}
-Ian 13, 2019 4:58:26 PM ro.bogdanpanea.homeworks.Standings printAtletes
+Ian 14, 2019 9:43:50 AM ro.bogdanpanea.homeworks.Standings printAtletes
 INFO: Athlete{number=27, name='Piotr Smitzer', countryCode='CZ', skiTimeResult='30:10', shootingRange=[xxxxx, xxxxx, xxxxx], finalTime='30:10'}
-Ian 13, 2019 4:58:26 PM ro.bogdanpanea.homeworks.Standings printAtletes
+Ian 14, 2019 9:43:50 AM ro.bogdanpanea.homeworks.Standings printAtletes
 INFO: Athlete{number=1, name='Jimmy Smiles', countryCode='UK', skiTimeResult='29:15', shootingRange=[xxoox, xooxo, xxxxo], finalTime='30:15'}
-Ian 13, 2019 4:58:26 PM ro.bogdanpanea.homeworks.Standings printAtletes
+Ian 14, 2019 9:43:50 AM ro.bogdanpanea.homeworks.Standings printAtletes
 INFO: Athlete{number=8, name='George', countryCode='UK', skiTimeResult='29:25', shootingRange=[oooox, xooxo, xxxxo], finalTime='30:45'}
-Ian 13, 2019 4:58:26 PM ro.bogdanpanea.homeworks.Standings printAtletes
+Ian 14, 2019 9:43:50 AM ro.bogdanpanea.homeworks.Standings printAtletes
 INFO: Athlete{number=11, name='Umar Jorgson', countryCode='SK', skiTimeResult='30:27', shootingRange=[xxxox, xxxxx, xxoxo], finalTime='30:57'}
-Ian 13, 2019 4:58:26 PM ro.bogdanpanea.homeworks.Standings printAtletes
+Ian 14, 2019 9:43:50 AM ro.bogdanpanea.homeworks.Standings printAtletes
 INFO: Athlete{number=17, name='Tony', countryCode='SK', skiTimeResult='29:55', shootingRange=[xoxox, xooxx, xooxo], finalTime='31:5'}
-Ian 13, 2019 4:58:26 PM ro.bogdanpanea.homeworks.Standings printAtletes
+Ian 14, 2019 9:43:50 AM ro.bogdanpanea.homeworks.Standings printAtletes
 INFO: Athlete{number=5, name='Petrescu', countryCode='CZ', skiTimeResult='31:00', shootingRange=[xxxxx, xxoxx, xxxxx], finalTime='31:10'}
-Ian 13, 2019 4:58:26 PM ro.bogdanpanea.homeworks.Standings printAtletes
+Ian 14, 2019 9:43:50 AM ro.bogdanpanea.homeworks.Standings printAtletes
 INFO: Athlete{number=2, name='Adi', countryCode='SK', skiTimeResult='30:15', shootingRange=[xooox, xxoxx, xxoxo], finalTime='31:15'}
-Ian 13, 2019 4:58:26 PM ro.bogdanpanea.homeworks.Standings printAtletes
+Ian 14, 2019 9:43:50 AM ro.bogdanpanea.homeworks.Standings printAtletes
 INFO: Athlete{number=14, name='Alin', countryCode='CZ', skiTimeResult='31:09', shootingRange=[xxoxo, xxoxx, oxxxx], finalTime='31:49'}
